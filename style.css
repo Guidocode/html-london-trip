@@ -1,0 +1,9 @@
+header img {
+  float: left;
+}
+
+.clearfix {
+  content:"";
+  display: table;
+  clear: both;
+}
