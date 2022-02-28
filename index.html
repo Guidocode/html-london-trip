@@ -13,6 +13,8 @@
   <!-- Titolo e immagini -->
   <header class="clearfix">
     <h1>Il mio Viaggio a Londra</h1>
+    <!-- Correzione: le immagini che seguono andavano messe dentro un div -->
+    <!-- Correzione: Avrei potuto aggiungere anche title ad ogni immagine -->
     <img src="./img/pexels-bill-emrich-230794-0.jpg" alt="Parte sinistra dell'immagine">
     <img src="./img/pexels-bill-emrich-230794-1.jpg" alt="Parte centrale dell'immagine">
     <img src="./img/pexels-bill-emrich-230794-2.jpg" alt="Parte destra dell'immagine">
@@ -22,6 +24,7 @@
   <!-- Dettagli vari della vacanza -->
   <main>
     
+    <!-- Correzione: meglio usare il commento di chiusura per ogni section ad es. -->
     <!-- Spese -->
     <section>
       <h2>Le mie spese</h2>
@@ -40,7 +43,7 @@
           <tr>
             <td>1</td>
             <td>Biglietto Aereo</td>
-            <td>120£</td>
+            <td>120£</td>  <!--Correzione: £ è un carattere speciale: avrei dovuto metterlo così &sterlina; es.-->
           </tr>
           <tr>
             <td>1</td>
@@ -58,7 +61,7 @@
         <tfoot>
           <tr>
             <td>Totale</td>
-            <td></td>
+            <td></td> <!--Correzione: invece di lasciare una cella vuota avrei dovuto mettere 2 td e nel primo usare colspan="2"-->
             <td>360£</td>
           </tr>
         </tfoot>
@@ -115,6 +118,7 @@
   <!-- Le foto -->
   <footer>
     <h3>Le foto</h3>
+    <!-- Correzione: le immagini che seguono andavano messe dentro un div -->
     <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg" alt="Foto 1">
     <img src="https://pokerstarscareers.com/wp-content/uploads/2020/01/London-Wider-Area-e1597319992670-400x400.jpg" alt="Foto 2">
   </footer>
